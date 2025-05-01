@@ -12,7 +12,7 @@ pipeline {
             }
         }
 
-        stage('Install npm prerequisites') {
+        stage('Install npm build') {
             steps {
                 sh 'npm install'
                 sh 'npm run build'
