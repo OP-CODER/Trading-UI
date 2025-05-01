@@ -16,7 +16,7 @@ pipeline {
             steps {
                 sh 'npm install'
                 sh 'npm run build'
-                sh 'timeout 120s npm start'
+                sh 'timeout 20s npm start'
             }
         }
     }
